@@ -51,6 +51,8 @@ E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\roslyn\vbc.rsp
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\roslyn\VBCSCompiler.exe
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\roslyn\VBCSCompiler.exe.config
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\Antlr3.Runtime.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\EntityFramework.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\EntityFramework.SqlServer.dll
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\Microsoft.Web.Infrastructure.dll
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\Newtonsoft.Json.dll
@@ -65,6 +67,8 @@ E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\System.Web.Web
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\System.Web.WebPages.dll
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\System.Web.WebPages.Razor.dll
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\WebGrease.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\EntityFramework.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\EntityFramework.SqlServer.xml
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\Newtonsoft.Json.xml
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\System.Net.Http.Formatting.xml
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\bin\System.Web.Helpers.xml
@@ -83,3 +87,5 @@ E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\obj\Debug\API_QL_N
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\obj\Debug\API_QL_Nha_hang.csproj.CopyComplete
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\obj\Debug\API_QL_Nha_hang.dll
 E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\obj\Debug\API_QL_Nha_hang.pdb
+E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\obj\Debug\API_QL_Nha_hang.Migrations.HC.resources
+E:\Code\Github\He_thong_tich_hop_Nha_hang\API\API_QL_Nha_hang\obj\Debug\API_QL_Nha_hang.csproj.GenerateResource.cache

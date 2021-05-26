@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_QL_Nha_hang", "API_QL_Nha_hang.csproj", "{32C638E8-626B-427B-9D4E-CB0309D4BEEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_QL_Nha_hang", "API_QL_Nha_hang.csproj", "{3704AB45-469E-4DA0-B273-629E3E2C41EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32C638E8-626B-427B-9D4E-CB0309D4BEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32C638E8-626B-427B-9D4E-CB0309D4BEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32C638E8-626B-427B-9D4E-CB0309D4BEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32C638E8-626B-427B-9D4E-CB0309D4BEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3704AB45-469E-4DA0-B273-629E3E2C41EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3704AB45-469E-4DA0-B273-629E3E2C41EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3704AB45-469E-4DA0-B273-629E3E2C41EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3704AB45-469E-4DA0-B273-629E3E2C41EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2794A90D-ACE0-42A9-A560-9AB22CF84F53}
+		SolutionGuid = {2D54213A-BF61-4506-B0AC-6D36502579AA}
 	EndGlobalSection
 EndGlobal

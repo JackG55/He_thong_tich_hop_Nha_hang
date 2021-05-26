@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QL_NhaHangModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ban">
+    <Key>
+      <PropertyRef Name="MaBan" />
+    </Key>
+    <Property Name="MaBan" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TenBan" Type="varchar" MaxLength="50" />
+    <Property Name="TrangThai" Type="int" Nullable="false" />
+    <Property Name="Vitri" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Ban_HoaDon">
+    <Key>
+      <PropertyRef Name="MaBan" />
+    </Key>
+    <Property Name="MaBan" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MaHoaDon" Type="int" />
+    <Property Name="GioVao" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DatMon">
+    <Key>
+      <PropertyRef Name="MaDatMon" />
+    </Key>
+    <Property Name="MaDatMon" Type="int" Nullable="false" />
+    <Property Name="MaBan" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MaMonAn" Type="int" Nullable="false" />
+    <Property Name="ThoiGian" Type="datetime" />
+    <Property Name="SoLuong" Type="int" />
+    <Property Name="GiaMon" Type="decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="TrangThai" Type="int" Nullable="false" />
+    <Property Name="MaHoaDon" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="MaHoaDon" />
+    </Key>
+    <Property Name="MaHoaDon" Type="int" Nullable="false" />
+    <Property Name="GioVao" Type="datetime" />
+    <Property Name="GioRa" Type="datetime" />
+    <Property Name="TongTien" Type="int" />
+    <Property Name="KhuyenMai" Type="float" />
+    <Property Name="NguoiLapHoaDon" Type="char" MaxLength="10" />
+    <Property Name="TrangThai" Type="int" />
+  </EntityType>
+  <EntityType Name="LoaiMon">
+    <Key>
+      <PropertyRef Name="MaLoaiMon" />
+    </Key>
+    <Property Name="MaLoaiMon" Type="int" Nullable="false" />
+    <Property Name="TenLoaiMon" Type="nvarchar" MaxLength="200" />
+    <Property Name="TieuDe" Type="varchar" MaxLength="200" />
+    <Property Name="NgayTao" Type="datetime" />
+    <Property Name="ThuTuXuatHien" Type="int" />
+    <Property Name="TuKhoaTimKiem" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="MonAn">
+    <Key>
+      <PropertyRef Name="MaMonAn" />
+    </Key>
+    <Property Name="MaMonAn" Type="int" Nullable="false" />
+    <Property Name="TenMonAn" Type="nvarchar" MaxLength="200" />
+    <Property Name="MoTa" Type="nvarchar" MaxLength="250" />
+    <Property Name="HinhAnh" Type="nvarchar" MaxLength="200" />
+    <Property Name="GiaMon" Type="decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="GiaKhuyenMai" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="MaLoaiMon" Type="int" Nullable="false" />
+    <Property Name="NgayTao" Type="datetime" />
+    <Property Name="ThuTuXuatHien" Type="int" />
+    <Property Name="TuKhoaTimKiem" Type="nvarchar" MaxLength="200" />
+    <Property Name="TrangThai" Type="int" Nullable="false" />
+    <Property Name="TopHot" Type="date" />
+    <Property Name="DonViTinh" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="PhanHoi">
+    <Key>
+      <PropertyRef Name="MaPhanHoi" />
+    </Key>
+    <Property Name="MaPhanHoi" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TenKhachHang" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ChuDe" Type="nvarchar" MaxLength="100" />
+    <Property Name="LoiNhan" Type="ntext" />
+    <Property Name="MaMonAn" Type="int" Nullable="false" />
+    <Property Name="ThoiGian" Type="datetime" />
+    <Property Name="TrangThai" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuanLy">
+    <Key>
+      <PropertyRef Name="TenDangNhap" />
+    </Key>
+    <Property Name="TenDangNhap" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MatKhau" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="VaiTro" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ThongTinNguoiQuanLy">
+    <Key>
+      <PropertyRef Name="TenDangNhap" />
+    </Key>
+    <Property Name="TenDangNhap" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="GioiTinh" Type="char" MaxLength="3" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <Association Name="FK__Ban_HoaDo__MaBan__38996AB5">
+    <End Role="Ban" Type="Self.Ban" Multiplicity="1" />
+    <End Role="Ban_HoaDon" Type="Self.Ban_HoaDon" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ban">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="Ban_HoaDon">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Ban_HoaDo__MaHoa__398D8EEE">
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="0..1" />
+    <End Role="Ban_HoaDon" Type="Self.Ban_HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDon">
+        <PropertyRef Name="MaHoaDon" />
+      </Principal>
+      <Dependent Role="Ban_HoaDon">
+        <PropertyRef Name="MaHoaDon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HoaDon__NguoiLap__3D5E1FD2">
+    <End Role="QuanLy" Type="Self.QuanLy" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuanLy">
+        <PropertyRef Name="TenDangNhap" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="NguoiLapHoaDon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__QuanLy__TenDangN__403A8C7D">
+    <End Role="ThongTinNguoiQuanLy" Type="Self.ThongTinNguoiQuanLy" Multiplicity="1" />
+    <End Role="QuanLy" Type="Self.QuanLy" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ThongTinNguoiQuanLy">
+        <PropertyRef Name="TenDangNhap" />
+      </Principal>
+      <Dependent Role="QuanLy">
+        <PropertyRef Name="TenDangNhap" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DatMon_Ban">
+    <End Role="Ban" Type="Self.Ban" Multiplicity="1" />
+    <End Role="DatMon" Type="Self.DatMon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ban">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="DatMon">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DatMon_HoaDon">
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="1" />
+    <End Role="DatMon" Type="Self.DatMon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDon">
+        <PropertyRef Name="MaHoaDon" />
+      </Principal>
+      <Dependent Role="DatMon">
+        <PropertyRef Name="MaHoaDon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DatMon_MonAn">
+    <End Role="MonAn" Type="Self.MonAn" Multiplicity="1" />
+    <End Role="DatMon" Type="Self.DatMon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonAn">
+        <PropertyRef Name="MaMonAn" />
+      </Principal>
+      <Dependent Role="DatMon">
+        <PropertyRef Name="MaMonAn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FeedBack">
+    <End Role="MonAn" Type="Self.MonAn" Multiplicity="1" />
+    <End Role="PhanHoi" Type="Self.PhanHoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MonAn">
+        <PropertyRef Name="MaMonAn" />
+      </Principal>
+      <Dependent Role="PhanHoi">
+        <PropertyRef Name="MaMonAn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MonAn">
+    <End Role="LoaiMon" Type="Self.LoaiMon" Multiplicity="1" />
+    <End Role="MonAn" Type="Self.MonAn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiMon">
+        <PropertyRef Name="MaLoaiMon" />
+      </Principal>
+      <Dependent Role="MonAn">
+        <PropertyRef Name="MaLoaiMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetDetailBill" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="mahoadon" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetQuantityFood" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="LayDatMon" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maban" Type="char" Mode="In" />
+  </Function>
+  <EntityContainer Name="QL_NhaHangModelStoreContainer">
+    <EntitySet Name="Ban" EntityType="Self.Ban" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ban_HoaDon" EntityType="Self.Ban_HoaDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DatMon" EntityType="Self.DatMon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HoaDon" EntityType="Self.HoaDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoaiMon" EntityType="Self.LoaiMon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MonAn" EntityType="Self.MonAn" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhanHoi" EntityType="Self.PhanHoi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuanLy" EntityType="Self.QuanLy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ThongTinNguoiQuanLy" EntityType="Self.ThongTinNguoiQuanLy" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Ban_HoaDo__MaBan__38996AB5" Association="Self.FK__Ban_HoaDo__MaBan__38996AB5">
+      <End Role="Ban" EntitySet="Ban" />
+      <End Role="Ban_HoaDon" EntitySet="Ban_HoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Ban_HoaDo__MaHoa__398D8EEE" Association="Self.FK__Ban_HoaDo__MaHoa__398D8EEE">
+      <End Role="HoaDon" EntitySet="HoaDon" />
+      <End Role="Ban_HoaDon" EntitySet="Ban_HoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HoaDon__NguoiLap__3D5E1FD2" Association="Self.FK__HoaDon__NguoiLap__3D5E1FD2">
+      <End Role="QuanLy" EntitySet="QuanLy" />
+      <End Role="HoaDon" EntitySet="HoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK__QuanLy__TenDangN__403A8C7D" Association="Self.FK__QuanLy__TenDangN__403A8C7D">
+      <End Role="ThongTinNguoiQuanLy" EntitySet="ThongTinNguoiQuanLy" />
+      <End Role="QuanLy" EntitySet="QuanLy" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DatMon_Ban" Association="Self.FK_DatMon_Ban">
+      <End Role="Ban" EntitySet="Ban" />
+      <End Role="DatMon" EntitySet="DatMon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DatMon_HoaDon" Association="Self.FK_DatMon_HoaDon">
+      <End Role="HoaDon" EntitySet="HoaDon" />
+      <End Role="DatMon" EntitySet="DatMon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DatMon_MonAn" Association="Self.FK_DatMon_MonAn">
+      <End Role="MonAn" EntitySet="MonAn" />
+      <End Role="DatMon" EntitySet="DatMon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FeedBack" Association="Self.FK_FeedBack">
+      <End Role="MonAn" EntitySet="MonAn" />
+      <End Role="PhanHoi" EntitySet="PhanHoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MonAn" Association="Self.FK_MonAn">
+      <End Role="LoaiMon" EntitySet="LoaiMon" />
+      <End Role="MonAn" EntitySet="MonAn" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
