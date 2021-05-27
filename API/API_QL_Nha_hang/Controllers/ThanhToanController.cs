@@ -12,11 +12,14 @@ namespace API_QL_Nha_hang.Controllers
     public class ThanhToanController : ApiController
     {
         private BanRepository tbBan = new BanRepository();
+        private DatMonRepository tbDatMon = new DatMonRepository();
 
         /// <summary>
         /// lấy toàn bộ các bàn có trong cửa hàng
         /// </summary>
         /// <returns></returns>
+        [HttpGet]
+        [Route("api/Ban")]
         public HttpResponseMessage GetBan()
         {
             var ban = tbBan.List();
@@ -29,7 +32,7 @@ namespace API_QL_Nha_hang.Controllers
         }
 
 
-        
+       
 
 
     }

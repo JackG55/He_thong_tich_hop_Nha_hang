@@ -1,4 +1,5 @@
-﻿using API_QL_Nha_hang.Repository;
+﻿using API_QL_Nha_hang.Models;
+using API_QL_Nha_hang.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace API_QL_Nha_hang.Controllers
     {
         private LoaiMonRepository tbloaimon = new LoaiMonRepository();
         private MonAnRepository tbmonan = new MonAnRepository();
+        private DatMonRepository tbdatmon = new DatMonRepository();
 
         /// <summary>
         /// Lấy ra các loại món 
@@ -51,6 +53,7 @@ namespace API_QL_Nha_hang.Controllers
         }
 
 
+       
 
     }
 }

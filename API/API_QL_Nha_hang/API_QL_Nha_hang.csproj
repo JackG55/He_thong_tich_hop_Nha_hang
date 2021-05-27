@@ -188,6 +188,7 @@
     <Compile Include="Models\ThongTinNguoiQuanLy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\BanRepository.cs" />
+    <Compile Include="Repository\DatMonRepository.cs" />
     <Compile Include="Repository\LoaiMonRepository.cs" />
     <Compile Include="Repository\MonAnRepository.cs" />
     <Compile Include="Repository\PhanHoiRepository.cs" />
