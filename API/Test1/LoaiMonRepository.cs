@@ -31,5 +31,21 @@ namespace Test1
             var listMonAn = JsonConvert.DeserializeObject<List<LoaiMon>>(json);
             return listMonAn;
         }
+
+        public void Add(LoaiMon loai)
+        {
+            var loaimon = JsonConvert.SerializeObject(loai);
+            var buffer = Encoding.UTF8.GetBytes(loaimon);
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+            _client.PostAsync("", byteContent);
+        }
+
+        public void Delete(int id)
+        {
+            _client.DeleteAsync($"api/delete/{id}");
+        }
+
+
     }
 }
