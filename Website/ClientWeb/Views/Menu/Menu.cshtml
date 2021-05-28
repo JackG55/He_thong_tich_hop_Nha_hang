@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Thực đơn";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+
+@using WebApplication1.Models;
+@model List<LoaiMon>
+
+@section setactive_menu{
+    active
+}
+
+<section class="menu">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="menubar col-md-2 marginchangesmall show-on-scroll">
+                    <ul>
+                        <li>
+                            <h3>Thực đơn</h3>
+                        </li>
+                        @foreach (LoaiMon lm in Model)
+                        {
+                            <button type="button" class="setfontbutton_menu" onclick="getAllMonAn(@lm.MaLoaiMon)" title="@lm.TenLoaiMon">
+                                @lm.TenLoaiMon
+                            </button>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class=" col-lg-9">
+                <div id="dataModel">
+
+                </div>
+            </div>
+            <div id="dataCart">
+                
+            </div>
+
+        </div>
+     </div>
+
+</section>
+
+<script>
+    $(document).ready(function () {
+        document.getElementsByClassName("setfontbutton_menu")[0].click();
+    })
+
+</script>
+
+<script src="~/Content/Js/xulymonan_giohang.js"></script>

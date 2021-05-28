@@ -68,7 +68,7 @@
             // 
             // loaiMonBindingSource
             // 
-            this.loaiMonBindingSource.DataSource = typeof(API_QL_Nha_hang.Models.LoaiMon);
+            this.loaiMonBindingSource.DataSource = typeof(Test1.Models.LoaiMon);
             // 
             // gridView1
             // 
