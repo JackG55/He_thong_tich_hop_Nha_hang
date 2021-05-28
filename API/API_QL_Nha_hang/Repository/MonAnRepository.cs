@@ -7,7 +7,7 @@ using System.Web;
 
 namespace API_QL_Nha_hang.Repository
 {
-    public class MonAnRepository : IRepository<MonAn>
+    public class MonAnRepository 
     {
         private Data_Nha_hang context = new Data_Nha_hang();
         public void Add(MonAn item)
@@ -22,9 +22,9 @@ namespace API_QL_Nha_hang.Repository
             context.SaveChanges();
         }
 
-        public MonAn Get(int id)
+        public List<MonAn> Get(int id)
         {
-            return context.MonAns.FirstOrDefault(e => e.MaLoaiMon == id);
+            return context.MonAns.Where(e => e.MaLoaiMon == id).ToList();
         }
 
         public List<MonAn> List()

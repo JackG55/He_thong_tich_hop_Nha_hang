@@ -1,11 +1,11 @@
-﻿using ClientWeb.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ClientWeb.Models;
 
-namespace ClientWeb.Controllers
+namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
@@ -32,15 +32,15 @@ namespace ClientWeb.Controllers
         public ActionResult Detail(string maPH)
         {
             PhanHoi ph = context.PhanHois.SingleOrDefault(n => n.MaPhanHoi == maPH);
-            if(ph==null)
+            if (ph == null)
             {
                 Response.StatusCode = 404;
                 return null;
             }
             return View(ph);
         }
-       
 
-        
+
+
     }
 }

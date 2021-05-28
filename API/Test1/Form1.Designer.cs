@@ -138,7 +138,7 @@
             // 
             // thongTinNguoiQuanLyBindingSource
             // 
-            this.thongTinNguoiQuanLyBindingSource.DataSource = typeof(API_QL_Nha_hang.Models.ThongTinNguoiQuanLy);
+            this.thongTinNguoiQuanLyBindingSource.DataSource = typeof(Test1.Models.ThongTinNguoiQuanLy);
             // 
             // ribbonControl1
             // 
