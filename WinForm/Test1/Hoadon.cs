@@ -29,5 +29,6 @@ namespace Test1
             var listBan_HD = JsonConvert.DeserializeObject<List<DatMon_HoaDon_MonAn>>(json);
             return listBan_HD;
         }
+       
     }
 }
