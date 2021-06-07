@@ -22,6 +22,12 @@ namespace Test1
             _client.BaseAddress = new Uri("https://localhost:44360/");
             _client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
+
+
+        /// <summary>
+        /// lấy ra toàn bộ Bàn
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Ban>> Getlist()
         {
             _response = await _client.GetAsync($"/api/Ban");

@@ -1,314 +1,93 @@
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Test1.exe.config
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Test1.exe
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Test1.pdb
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.csprojAssemblyReference.cache
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.Properties.Resources.resources
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.csproj.GenerateResource.cache
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.exe
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.pdb
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.exe.licenses
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\API_QL_Nha_hang.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Data.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Printing.v19.1.Core.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Utils.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraEditors.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraGrid.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraLayout.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Optimization.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Mvc.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Http.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Net.Http.Formatting.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\EntityFramework.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Newtonsoft.Json.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Http.WebHost.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraBars.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Microsoft.Web.Infrastructure.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.WebPages.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.WebPages.Razor.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Razor.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Office.v19.1.Core.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Images.v19.1.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.WebPages.Deployment.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\API_QL_Nha_hang.pdb
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\API_QL_Nha_hang.dll.config
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Data.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Utils.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Optimization.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Mvc.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Http.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Net.Http.Formatting.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\EntityFramework.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Newtonsoft.Json.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Http.WebHost.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraBars.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.WebPages.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.WebPages.Razor.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.Razor.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\DevExpress.Office.v19.1.Core.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\System.Web.WebPages.Deployment.xml
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.csproj.CopyComplete
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\WebGrease.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Antlr3.Runtime.dll
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\bin\Debug\Antlr3.Runtime.pdb
-E:\Code\Github\He_thong_tich_hop_Nha_hang\API\Test1\obj\Debug\Test1.Form1.resources
-D:\bài tập\API\Test1\bin\Debug\Test1.exe.config
-D:\bài tập\API\Test1\bin\Debug\Test1.exe
-D:\bài tập\API\Test1\bin\Debug\Test1.pdb
-D:\bài tập\API\Test1\bin\Debug\API_QL_Nha_hang.dll
-D:\bài tập\API\Test1\bin\Debug\Newtonsoft.Json.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.Optimization.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.Mvc.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.Http.dll
-D:\bài tập\API\Test1\bin\Debug\System.Net.Http.Formatting.dll
-D:\bài tập\API\Test1\bin\Debug\EntityFramework.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.Http.WebHost.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
-D:\bài tập\API\Test1\bin\Debug\WebGrease.dll
-D:\bài tập\API\Test1\bin\Debug\Microsoft.Web.Infrastructure.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.WebPages.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.WebPages.Razor.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.Razor.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Office.v19.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Images.v19.1.dll
-D:\bài tập\API\Test1\bin\Debug\Antlr3.Runtime.dll
-D:\bài tập\API\Test1\bin\Debug\System.Web.WebPages.Deployment.dll
-D:\bài tập\API\Test1\bin\Debug\API_QL_Nha_hang.pdb
-D:\bài tập\API\Test1\bin\Debug\API_QL_Nha_hang.dll.config
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Data.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Printing.v19.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Utils.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraBars.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraEditors.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraGrid.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraLayout.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\Newtonsoft.Json.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.Optimization.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.Mvc.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.Http.xml
-D:\bài tập\API\Test1\bin\Debug\System.Net.Http.Formatting.xml
-D:\bài tập\API\Test1\bin\Debug\EntityFramework.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.Http.WebHost.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.WebPages.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.WebPages.Razor.xml
-D:\bài tập\API\Test1\bin\Debug\System.Web.Razor.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Office.v19.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\Antlr3.Runtime.pdb
-D:\bài tập\API\Test1\bin\Debug\System.Web.WebPages.Deployment.xml
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
-D:\bài tập\API\Test1\obj\Debug\Test1.csprojAssemblyReference.cache
-D:\bài tập\API\Test1\obj\Debug\Test1.Properties.Resources.resources
-D:\bài tập\API\Test1\obj\Debug\Test1.csproj.GenerateResource.cache
-D:\bài tập\API\Test1\obj\Debug\Test1.exe.licenses
-D:\bài tập\API\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
-D:\bài tập\API\Test1\obj\Debug\Test1.csproj.CopyComplete
-D:\bài tập\API\Test1\obj\Debug\Test1.exe
-D:\bài tập\API\Test1\obj\Debug\Test1.pdb
-D:\bài tập\API\Test1\obj\Debug\Test1.thanhtoan_Hd.resources
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Data.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Printing.v20.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Utils.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraEditors.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraGrid.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraLayout.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraBars.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Office.v20.1.Core.dll
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Data.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Printing.v20.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Utils.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraEditors.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraGrid.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraLayout.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraBars.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
-D:\bài tập\API\Test1\bin\Debug\DevExpress.Office.v20.1.Core.xml
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
-D:\bài tập\API\Test1\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
-D:\bài tập\API\Test1\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\Test1.exe.config
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\Test1.exe
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\Test1.pdb
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Data.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Utils.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraBars.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraGrid.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraLayout.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraPrinting.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\Newtonsoft.Json.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.RichEdit.v19.1.Core.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraTreeList.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Office.v19.1.Core.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Images.v19.1.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Data.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Utils.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraBars.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraGrid.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraPrinting.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\Newtonsoft.Json.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.RichEdit.v19.1.Core.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.XtraTreeList.v19.1.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\DevExpress.Office.v19.1.Core.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.XtraBars.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.XtraBars.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.XtraBars.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.XtraBars.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.XtraGrid.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.XtraGrid.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.XtraPrinting.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.RichEdit.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.XtraTreeList.v19.1.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\de\DevExpress.Office.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\es\DevExpress.Office.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ja\DevExpress.Office.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\bin\Debug\ru\DevExpress.Office.v19.1.Core.resources.dll
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.csprojAssemblyReference.cache
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.Properties.Resources.resources
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.thanhtoan_Hd.resources
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.csproj.GenerateResource.cache
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.exe.licenses
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.csproj.CopyComplete
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.exe
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\obj\Debug\Test1.pdb

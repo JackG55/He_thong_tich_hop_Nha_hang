@@ -22,12 +22,13 @@ namespace Test1
         private async void loadban()
         {
             var listq = await ban.Getlist();
-            Button oldbtn = new Button() { Width = 0, Location = new Point(0, 0) };
+            int X = 0;
+            int Y = 0;
 
             int k = -1;
-            while (k <= listq.Count)
+            while (k < listq.Count)
             {
-                for (int j = 0; j <=3; j++)
+                for (int j = 0; j <3; j++)
                 {
                     k++;
                     if (k < listq.Count)
@@ -37,14 +38,22 @@ namespace Test1
                         {
                             Width = cons.table_wight,
                             Height = cons.table_heigh,
-                            Location = new Point(oldbtn.Location.X + oldbtn.Width, oldbtn.Location.Y),
+                            Location = new Point(X, Y),
                             Text = listq[k].TenBan + "\n" + listq[k].Vitri,
                             Name = listq[k].MaBan
                         };
+                        if(listq[k].TrangThai == 1)
+                        {
+                            btn.BackColor = Color.Red;
+                        }
+                        else if(listq[k].TrangThai != 1){
+                            btn.BackColor = Color.Green;
+                        }
                         btn.Click += Btn_Click;
 
                         panelBan.Controls.Add(btn);
-                        oldbtn = btn;
+                        //cap nhat X
+                        X = X + cons.table_wight + 20 ;
 
                     }
                     else
@@ -54,9 +63,9 @@ namespace Test1
 
                 }
 
-                oldbtn.Location = new Point(0, oldbtn.Location.Y + cons.table_heigh + 10);
-                oldbtn.Width = 0;
-                //oldbtn.Height = 0;
+                //cap nhat X, Y
+                X = 0;
+                Y = Y + cons.table_heigh + 20;
 
             }
         }
@@ -65,12 +74,12 @@ namespace Test1
         {
             Button btn = sender as Button;
             ImageList imlist = new ImageList();
-            imlist.Images.Add("pic1", Image.FromFile(@"D:\bài tập\API\Test1\Image\breakfast-7.jpg"));
-            imlist.Images.Add("pic2", Image.FromFile(@"D:\bài tập\API\Test1\Image\breakfast-7.jpg"));
-            imlist.Images.Add("pic3", Image.FromFile(@"D:\bài tập\API\Test1\Image\dinner-1.jpg"));
-            imlist.Images.Add("pic4", Image.FromFile(@"D:\bài tập\API\Test1\Image\dinner-2.jpg"));
-            imlist.Images.Add("pic5", Image.FromFile(@"D:\bài tập\API\Test1\Image\dinner-4.jpg"));
-            imlist.Images.Add("pic6", Image.FromFile(@"D:\bài tập\API\Test1\Image\dinner-3.jpg"));
+            imlist.Images.Add("pic1", Image.FromFile(@"~\Image\breakfast-7.jpg"));
+            imlist.Images.Add("pic2", Image.FromFile(@"~\Image\breakfast-7.jpg"));
+            imlist.Images.Add("pic3", Image.FromFile(@"~\Image\dinner-1.jpg"));
+            imlist.Images.Add("pic4", Image.FromFile(@"~\Image\dinner-2.jpg"));
+            imlist.Images.Add("pic5", Image.FromFile(@"~\Image\dinner-4.jpg"));
+            imlist.Images.Add("pic6", Image.FromFile(@"~\Image\dinner-3.jpg"));
             var hoadon = await hd.GetHD(btn.Name);
 
             listView1.Columns.Add("Ảnh Và Tên Món Ăn", 210);
