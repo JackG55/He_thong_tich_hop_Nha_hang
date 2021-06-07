@@ -27,7 +27,7 @@ namespace Test1
             int k = -1;
             while (k <= listq.Count)
             {
-                for (int j = 0; j <= 3; j++)
+                for (int j = 0; j <=3; j++)
                 {
                     k++;
                     if (k < listq.Count)
