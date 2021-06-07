@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraBars.Ribbon;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -74,7 +75,7 @@ namespace Test1
         {
             Button btn = sender as Button;
             ImageList imlist = new ImageList();
-            imlist.Images.Add("pic1", Image.FromFile(@"~\Image\breakfast-7.jpg"));
+            imlist.Images.Add("pic1", Image.FromFile(@"~\Image\dinner-3.jpg"));
             imlist.Images.Add("pic2", Image.FromFile(@"~\Image\breakfast-7.jpg"));
             imlist.Images.Add("pic3", Image.FromFile(@"~\Image\dinner-1.jpg"));
             imlist.Images.Add("pic4", Image.FromFile(@"~\Image\dinner-2.jpg"));
