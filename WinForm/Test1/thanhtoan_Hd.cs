@@ -15,6 +15,8 @@ namespace Test1
     {
         banan ban = new banan();
         Hoadon hd = new Hoadon();
+
+        public string rootFolder = @"E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\Image\";
         public thanhtoan_Hd()
         {
             InitializeComponent();
@@ -75,12 +77,12 @@ namespace Test1
         {
             Button btn = sender as Button;
             ImageList imlist = new ImageList();
-            imlist.Images.Add("pic1", Image.FromFile(@"~\Image\dinner-3.jpg"));
-            imlist.Images.Add("pic2", Image.FromFile(@"~\Image\breakfast-7.jpg"));
-            imlist.Images.Add("pic3", Image.FromFile(@"~\Image\dinner-1.jpg"));
-            imlist.Images.Add("pic4", Image.FromFile(@"~\Image\dinner-2.jpg"));
-            imlist.Images.Add("pic5", Image.FromFile(@"~\Image\dinner-4.jpg"));
-            imlist.Images.Add("pic6", Image.FromFile(@"~\Image\dinner-3.jpg"));
+            //imlist.Images.Add("pic1", Image.FromFile(@"~\Image\dinner-3.jpg"));
+            //imlist.Images.Add("pic2", Image.FromFile(@"~\Image\breakfast-7.jpg"));
+            //imlist.Images.Add("pic3", Image.FromFile(@"~\Image\dinner-1.jpg"));
+            //imlist.Images.Add("pic4", Image.FromFile(@"~\Image\dinner-2.jpg"));
+            //imlist.Images.Add("pic5", Image.FromFile(@"~\Image\dinner-4.jpg"));
+            //imlist.Images.Add("pic6", Image.FromFile(@"~\Image\dinner-3.jpg"));
             var hoadon = await hd.GetHD(btn.Name);
 
             listView1.Columns.Add("Ảnh Và Tên Món Ăn", 210);
@@ -95,6 +97,7 @@ namespace Test1
                     if (j < hoadon.Count)
                     {
                         imlist.ImageSize = new Size(40, 40);
+                        imlist.Images.Add("pic " + j, Image.FromFile(rootFolder + hoadon[j].HinhAnh));
                         listView1.SmallImageList = imlist;
                         ListViewItem item = new ListViewItem(hoadon[j].TenMonAn.ToString(), j);
                         listView1.Items.Add(item);
