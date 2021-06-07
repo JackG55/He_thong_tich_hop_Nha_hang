@@ -10,6 +10,7 @@ namespace API_QL_Nha_hang.Repository
     public class DatMonRepository : IRepository<DatMon>
     {
         private Data_Nha_hang context = new Data_Nha_hang();
+       
         public void Add(DatMon item)
         {
             context.DatMons.Add(item);

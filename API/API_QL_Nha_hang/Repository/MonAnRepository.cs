@@ -24,6 +24,7 @@ namespace API_QL_Nha_hang.Repository
 
         public List<MonAn> Get(int id)
         {
+            
             return context.MonAns.Where(e => e.MaLoaiMon == id).ToList();
         }
 

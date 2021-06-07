@@ -69,7 +69,7 @@ namespace API_QL_Nha_hang.Controllers
 
                 context.SaveChanges();
 
-                return Request.CreateResponse(HttpStatusCode.OK, "Nhan ban thanh cong");
+                return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch
             {
@@ -111,7 +111,11 @@ namespace API_QL_Nha_hang.Controllers
         }
 
         
-        
+        /// <summary>
+        /// thanh toán hoá đơn
+        /// </summary>
+        /// <param name="hoa_don"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("api/ThanhToan")]
         public HttpResponseMessage ThanhToan([FromBody] HoaDon hoa_don)
@@ -140,7 +144,7 @@ namespace API_QL_Nha_hang.Controllers
                 context.SaveChanges();
 
 
-                return Request.CreateResponse(HttpStatusCode.OK, "Thah toan thanh cong");
+                return Request.CreateResponse(HttpStatusCode.OK, "Thanh toan thanh cong");
             }
             catch
             {
