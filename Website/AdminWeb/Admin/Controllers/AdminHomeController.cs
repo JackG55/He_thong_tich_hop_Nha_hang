@@ -4,16 +4,19 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Admin.Models;
+using Newtonsoft.Json;
 
 namespace  Admin.Controllers
 {
     public class AdminHomeController : Controller
     {
         private Model1 context = new Model1();
+        Repository repo = new Repository();
         // GET: Home
         public ActionResult Index()
         {
             var model = context.Bans.ToList();
+
             return View(model);
         }
 
@@ -122,7 +125,7 @@ namespace  Admin.Controllers
             hoa_don_moi.GioVao = System.DateTime.Now;
 
             //them nguoi lap vao day 
-
+            
             hoa_don_moi.TrangThai = 0;
 
             context.HoaDons.Add(hoa_don_moi);
