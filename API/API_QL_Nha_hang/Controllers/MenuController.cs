@@ -103,6 +103,19 @@ namespace API_QL_Nha_hang.Controllers
 
 
 
+        /// <summary>
+        /// tìm kiếm món ăn
+        /// </summary>
+        /// <param name="keyword">từ mà khách nhập vào</param>
+        /// <returns>trả về một list món ăn</returns>
+        [HttpGet]
+        [Route("api/TimKiem/{keyword}")]
+        public HttpResponseMessage TimKiem(string keyword)
+        {
+            List<MonAn> monAns = new List<MonAn>();
+            monAns = context.Database.SqlQuery<MonAn>("SELECT * FROM dbo.MonAn WHERE TenMonAn LIKE N'%" + keyword + "%'").ToList();
+            return Request.CreateResponse(HttpStatusCode.OK, monAns);
+        }
 
 
 
