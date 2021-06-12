@@ -1,0 +1,16 @@
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.csprojAssemblyReference.cache
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.Form1.resources
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.Properties.Resources.resources
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.csproj.GenerateResource.cache
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.csproj.CoreCompileInputs.cache
+D:\bài tập\API\Nha_Bep\bin\Debug\Nha_Bep.exe.config
+D:\bài tập\API\Nha_Bep\bin\Debug\Nha_Bep.exe
+D:\bài tập\API\Nha_Bep\bin\Debug\Nha_Bep.pdb
+D:\bài tập\API\Nha_Bep\bin\Debug\Test1.exe
+D:\bài tập\API\Nha_Bep\bin\Debug\Newtonsoft.Json.dll
+D:\bài tập\API\Nha_Bep\bin\Debug\Test1.pdb
+D:\bài tập\API\Nha_Bep\bin\Debug\Test1.exe.config
+D:\bài tập\API\Nha_Bep\bin\Debug\Newtonsoft.Json.xml
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.csproj.CopyComplete
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.exe
+D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.pdb
