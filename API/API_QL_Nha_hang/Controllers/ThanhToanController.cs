@@ -154,5 +154,28 @@ namespace API_QL_Nha_hang.Controllers
         }
 
 
+        /// <summary>
+        /// lấy ra các món ăn đang làm
+        /// </summary>
+        /// <param name="maban"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("api/MonAnDangLam/{maban}")]
+        public HttpResponseMessage GetMonAnDangLam(string maban)
+        {
+            var datmon_ban = context.Ban_HoaDon.Find(maban);
+            var mahoadon = datmon_ban.MaHoaDon;
+
+            var list = context.Database.SqlQuery<int>("SELECT MaMonAn FROM dbo.DatMon WHERE TrangThai = '0' AND MaHoaDon = " + mahoadon).ToList();
+            List<MonAn> monan = new List<MonAn>();
+            foreach (int item in list)
+            {
+                monan.Add(context.MonAns.Where(x => x.MaMonAn == item).FirstOrDefault());
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, monan);
+
+        }
+
+
     }
 }
