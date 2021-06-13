@@ -26,5 +26,14 @@ namespace Nha_Bep
             var listBan_MA = JsonConvert.DeserializeObject<List<DatMon_HoaDon_MonAn>>(json);
             return listBan_MA;
         }
+
+        public void HoanThanhMon(int madatmon)
+        {
+            var ma_dat_mon = JsonConvert.SerializeObject(madatmon);
+            var buffer = Encoding.UTF8.GetBytes(ma_dat_mon);
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+            _client.PutAsync($"api/HoanThanh/{madatmon}", byteContent);
+        }
     }
 }

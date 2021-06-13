@@ -164,14 +164,28 @@ namespace API_QL_Nha_hang.Controllers
             var datmon_ban = context.Ban_HoaDon.Find(maban);
             var mahoadon = datmon_ban.MaHoaDon;
 
-            var list = context.Database.SqlQuery<int>("SELECT MaMonAn FROM dbo.DatMon WHERE TrangThai = '0' AND MaHoaDon = '" + mahoadon + "'").ToList();
-            List<MonAn> monan = new List<MonAn>();
-            foreach (int item in list)
+            var list = context.Database.SqlQuery<DatMon_HoaDon_MonAn>("SELECT MaDatMon, DatMon.MaMonAn, TenMonAn, SoLuong, HinhAnh FROM dbo.DatMon JOIN dbo.MonAn ON MonAn.MaMonAn = DatMon.MaMonAn WHERE DatMon.TrangThai = '0' AND MaHoaDon = '" + mahoadon + "'").ToList();
+            if(list!=null)
             {
-                monan.Add(context.MonAns.Where(x => x.MaMonAn == item).FirstOrDefault());
+                return Request.CreateResponse(HttpStatusCode.OK, list);
             }
-            return Request.CreateResponse(HttpStatusCode.OK, monan);
+            else
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Khong co du lieu");
+            }
+            
 
+        }
+
+        [HttpPut]
+        [Route("api/HoanThanh/{madatmon}")]
+        public HttpResponseMessage HoanThanhMon(int madatmon)
+        {
+            var monan = context.DatMons.SingleOrDefault(s => s.MaDatMon == madatmon);
+            monan.TrangThai = 1;
+            context.SaveChanges();
+           
+            return Request.CreateResponse(HttpStatusCode.OK, "Chuẩn bị món hoàn tất");
         }
 
 

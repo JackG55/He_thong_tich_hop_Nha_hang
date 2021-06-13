@@ -89,6 +89,8 @@ namespace Test1
 
             ma_ban = btn.Name;
             listView1.Items.Clear();
+            listView1.Columns.Clear();
+            listView1.Controls.Clear();
 
             ImageList imlist = new ImageList();
 
