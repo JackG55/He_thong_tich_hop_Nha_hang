@@ -77,6 +77,7 @@
             this.btnthanhtoan.TabIndex = 11;
             this.btnthanhtoan.Text = "Thanh Toán";
             this.btnthanhtoan.UseVisualStyleBackColor = true;
+            this.btnthanhtoan.Click += new System.EventHandler(this.btnthanhtoan_Click);
             // 
             // panelBan
             // 

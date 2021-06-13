@@ -35,7 +35,8 @@ namespace API_QL_Nha_hang.Controllers
 
 
 
-
+        [HttpPut]
+        [Route("api/NhanBan/{maban}")]
         public HttpResponseMessage NhanBan(string maban)
         {
             try
@@ -63,23 +64,20 @@ namespace API_QL_Nha_hang.Controllers
 
 
                 Ban_HoaDon ban_hien_tai = context.Ban_HoaDon.SingleOrDefault(s => s.MaBan == maban);
-                ban_hien_tai.MaBan = maban;
+                //ban_hien_tai.MaBan = maban;
                 ban_hien_tai.MaHoaDon = ma_hoa_don;
                 ban_hien_tai.GioVao = hoa_don_moi.GioVao;
 
                 context.SaveChanges();
-
-                return Request.CreateResponse(HttpStatusCode.OK);
+                
+                return Request.CreateResponse(HttpStatusCode.OK, "Nhận bàn thành công");
             }
             catch
             {
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Khong the nhan ban");
             }
 
-            
-
-
-
+          
         }
 
 
@@ -94,11 +92,11 @@ namespace API_QL_Nha_hang.Controllers
         public HttpResponseMessage GetHoaDon(string maban)
         {
             //truy van de lay ra ma hoa don tu bang Ban-HoaDon
-            int ma_hoa_don = context.Database.SqlQuery<int>("SELECT MaHoaDon FROM dbo.Ban_HoaDon WHERE MaBan = " + maban).FirstOrDefault();
+            int ma_hoa_don = context.Database.SqlQuery<int>("SELECT MaHoaDon FROM dbo.Ban_HoaDon WHERE MaBan = '" + maban + "'").FirstOrDefault();
 
 
             //truy van ra cac thong tin cua hoa don 
-            var mon = context.Database.SqlQuery<DatMon_HoaDon_MonAn>("SELECT MaDatMon, DatMon.MaMonAn, TenMonAn, HinhAnh, SoLuong, MonAn.GiaMon,GiaKhuyenMai, DatMon.TrangThai FROM dbo.DatMon JOIN dbo.MonAn ON MonAn.MaMonAn = DatMon.MaMonAn WHERE MaHoaDon = " + ma_hoa_don).ToList();
+            var mon = context.Database.SqlQuery<DatMon_HoaDon_MonAn>("SELECT MaDatMon, DatMon.MaMonAn, TenMonAn, HinhAnh, SoLuong, MonAn.GiaMon,GiaKhuyenMai, DatMon.TrangThai FROM dbo.DatMon JOIN dbo.MonAn ON MonAn.MaMonAn = DatMon.MaMonAn WHERE MaHoaDon = '" + ma_hoa_don+ "'").ToList();
             
             if(mon!= null)
             {
@@ -116,22 +114,22 @@ namespace API_QL_Nha_hang.Controllers
         /// </summary>
         /// <param name="hoa_don"></param>
         /// <returns></returns>
-        [HttpPost]
-        [Route("api/ThanhToan")]
-        public HttpResponseMessage ThanhToan([FromBody] HoaDon hoa_don)
+        [HttpPut]
+        [Route("api/ThanhToan/{ma_hoa_don}")]
+        public HttpResponseMessage ThanhToan(int ma_hoa_don, int tong_tien)
         {
             try
             {
                 //cap nhat hoa don
-                var obj = context.HoaDons.SingleOrDefault(s => s.MaHoaDon == hoa_don.MaHoaDon);
+                var obj = context.HoaDons.SingleOrDefault(s => s.MaHoaDon == ma_hoa_don);
                 obj.GioRa = System.DateTime.Now;
-                obj.TongTien = hoa_don.TongTien;
+                obj.TongTien = tong_tien;
                 obj.TrangThai = 1;
 
                 context.SaveChanges();
 
                 //cap nhat trang thai ban
-                string ma_ban = context.Database.SqlQuery<string>("SELECT MaBan FROM dbo.Ban_HoaDon WHERE MaHoaDon =" + hoa_don.MaHoaDon).FirstOrDefault();
+                string ma_ban = context.Database.SqlQuery<string>("SELECT MaBan FROM dbo.Ban_HoaDon WHERE MaHoaDon =" + ma_hoa_don).FirstOrDefault();
                 var ban = context.Bans.SingleOrDefault(s => s.MaBan == ma_ban);
                 ban.TrangThai = 0;
 
@@ -166,13 +164,28 @@ namespace API_QL_Nha_hang.Controllers
             var datmon_ban = context.Ban_HoaDon.Find(maban);
             var mahoadon = datmon_ban.MaHoaDon;
 
-            var list = context.Database.SqlQuery<int>("SELECT MaMonAn FROM dbo.DatMon WHERE TrangThai = '0' AND MaHoaDon = " + mahoadon).ToList();
+            var list = context.Database.SqlQuery<int>("SELECT MaMonAn FROM dbo.DatMon WHERE TrangThai = '0' AND MaHoaDon = '" + mahoadon + "'").ToList();
             List<MonAn> monan = new List<MonAn>();
             foreach (int item in list)
             {
                 monan.Add(context.MonAns.Where(x => x.MaMonAn == item).FirstOrDefault());
             }
             return Request.CreateResponse(HttpStatusCode.OK, monan);
+
+        }
+
+
+        /// <summary>
+        /// Lấy ra mã hoá đơn từ mã bàn
+        /// </summary>
+        /// <param name="maban"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("api/GetIdHoaDon/{maban}")]
+        public HttpResponseMessage getIdHoaDon(int maban)
+        {
+            var id = context.Database.SqlQuery<Ban_HoaDon>("select * from Ban_HoaDon where MaBan = '" + maban + "'");
+            return Request.CreateResponse(HttpStatusCode.OK, id);
 
         }
 
