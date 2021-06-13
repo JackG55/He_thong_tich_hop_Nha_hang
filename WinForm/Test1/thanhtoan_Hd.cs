@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -20,11 +22,20 @@ namespace Test1
         string ma_ban = "";
         double tong_tien = 0;
 
-        public string rootFolder = @"E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\Image\";
+        public string rootFolder = "http://192.168.8.101:8080/Images/";
         public thanhtoan_Hd()
         {
             InitializeComponent();
             loadban();
+        }
+
+
+        public Stream GetImage(string imageName)
+        {
+            WebRequest request = WebRequest.Create(rootFolder + imageName);
+            WebResponse response = request.GetResponse();
+            Stream stream = response.GetResponseStream();
+            return stream;
         }
 
 
@@ -110,7 +121,7 @@ namespace Test1
                         if (j < hoadon.Count)
                         {
                             imlist.ImageSize = new Size(40, 40);
-                            imlist.Images.Add("pic " + j, Image.FromFile(rootFolder + hoadon[j].HinhAnh));
+                            imlist.Images.Add("pic " + j, Image.FromStream(GetImage(hoadon[j].HinhAnh)));
                             listView1.SmallImageList = imlist;
                             ListViewItem item = new ListViewItem(hoadon[j].TenMonAn.ToString(), j);
                             listView1.Items.Add(item);
