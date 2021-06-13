@@ -177,6 +177,30 @@ namespace API_QL_Nha_hang.Controllers
 
         }
 
+
+
+        [HttpGet]
+        [Route("api/MonAnCanLam")]
+        public HttpResponseMessage GetMonAnDangLamTheoSoLuong()
+        {
+
+            var list = context.Database.SqlQuery<DatMon_HoaDon_MonAn>("SELECT DatMon.MaMonAn, SUM(SoLuong) AS SoLuong, TenMonAn, HinhAnh FROM dbo.DatMon JOIN dbo.MonAn ON MonAn.MaMonAn = DatMon.MaMonAn WHERE DatMon.TrangThai = '0' GROUP BY DatMon.MaMonAn, TenMonAn,HinhAnh").ToList();
+            
+           
+            if (list != null)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, list);
+            }
+            else
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "Khong co du lieu");
+            }
+
+
+        }
+
+
+
         [HttpPut]
         [Route("api/HoanThanh/{madatmon}")]
         public HttpResponseMessage HoanThanhMon(int madatmon)
