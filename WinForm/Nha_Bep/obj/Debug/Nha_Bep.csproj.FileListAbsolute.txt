@@ -14,3 +14,19 @@ D:\bài tập\API\Nha_Bep\bin\Debug\Newtonsoft.Json.xml
 D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.csproj.CopyComplete
 D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.exe
 D:\bài tập\API\Nha_Bep\obj\Debug\Nha_Bep.pdb
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.csprojAssemblyReference.cache
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.Form1.resources
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.Properties.Resources.resources
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.QLMonAn.resources
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.csproj.GenerateResource.cache
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.csproj.CoreCompileInputs.cache
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.exe
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.pdb
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Nha_Bep.exe.config
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Nha_Bep.exe
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Nha_Bep.pdb
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Test1.exe
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Test1.pdb
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Test1.exe.config
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\bin\Debug\Newtonsoft.Json.xml
+E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Nha_Bep\obj\Debug\Nha_Bep.csproj.CopyComplete

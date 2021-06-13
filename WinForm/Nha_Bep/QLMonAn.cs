@@ -8,11 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Nha_Bep
 {
     public partial class QLMonAn : Form
     {
-        public string rootFolder = @"D:\bài tập\API\Test1\Image\";
+        
         MonAnCanLam ma = new MonAnCanLam();
         public QLMonAn()
         {
@@ -36,7 +37,7 @@ namespace Nha_Bep
                     if (j < monan.Count)
                     {
                         imlist.ImageSize = new Size(40, 40);
-                        imlist.Images.Add("pic " + j, Image.FromFile(rootFolder + monan[j].HinhAnh));
+                        imlist.Images.Add("pic " + j, Image.FromStream(Form1.GetImage(monan[j].HinhAnh)));
                         listView1.SmallImageList = imlist;
                         ListViewItem item = new ListViewItem(monan[j].TenMonAn.ToString(), j);
                         item.Tag = monan[j].MaDatMon;

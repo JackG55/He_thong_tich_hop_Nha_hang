@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,12 +19,22 @@ namespace Nha_Bep
         banan ban = new banan();
         // Hoadon hd = new Hoadon();
         NhaBep nb = new NhaBep();
-        public string rootFolder = @"D:\bài tập\API\Test1\Image\";
+        public static string rootFolder = "http://192.168.8.101:8080/Images/";
         public Form1()
         {
             InitializeComponent();
             loadban();
         }
+
+        public static Stream GetImage(string imageName)
+        {
+            WebRequest request = WebRequest.Create(rootFolder + imageName);
+            WebResponse response = request.GetResponse();
+            Stream stream = response.GetResponseStream();
+            return stream;
+        }
+
+
         private async void loadban()
         {
             panelBan.Controls.Clear();
@@ -101,7 +113,7 @@ namespace Nha_Bep
                         if (j < monan.Count)
                         {
                             imlist.ImageSize = new Size(40, 40);
-                            imlist.Images.Add("pic " + j, Image.FromFile(rootFolder + monan[j].HinhAnh));
+                            imlist.Images.Add("pic " + j, Image.FromStream(GetImage(monan[j].HinhAnh)));
                             listView1.SmallImageList = imlist;
                             ListViewItem item = new ListViewItem(monan[j].TenMonAn.ToString(), j);
                             item.Tag = monan[j].MaDatMon;
