@@ -17,7 +17,7 @@ namespace Nha_Bep
         banan ban = new banan();
         // Hoadon hd = new Hoadon();
         NhaBep nb = new NhaBep();
-        public string rootFolder = @"E:\Code\Github\He_thong_tich_hop_Nha_hang\WinForm\Test1\Image\";
+        public string rootFolder = @"D:\bài tập\API\Test1\Image\";
         public Form1()
         {
             InitializeComponent();
@@ -146,6 +146,12 @@ namespace Nha_Bep
             
         
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            QLMonAn frmmonan = new QLMonAn();
+            frmmonan.Show();
         }
     }
 
