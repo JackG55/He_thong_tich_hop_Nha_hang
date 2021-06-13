@@ -96,7 +96,7 @@ namespace API_QL_Nha_hang.Controllers
 
 
             //truy van ra cac thong tin cua hoa don 
-            var mon = context.Database.SqlQuery<DatMon_HoaDon_MonAn>("SELECT MaDatMon, DatMon.MaMonAn, TenMonAn, HinhAnh, SoLuong, MonAn.GiaMon,GiaKhuyenMai, DatMon.TrangThai FROM dbo.DatMon JOIN dbo.MonAn ON MonAn.MaMonAn = DatMon.MaMonAn WHERE MaHoaDon = '" + ma_hoa_don+ "'").ToList();
+            var mon = context.Database.SqlQuery<DatMon_HoaDon_MonAn>("SELECT MaDatMon, DatMon.MaMonAn, TenMonAn, HinhAnh, SoLuong, MonAn.GiaMon,GiaKhuyenMai, DatMon.TrangThai FROM dbo.DatMon JOIN dbo.MonAn ON MonAn.MaMonAn = DatMon.MaMonAn WHERE DatMon.TrangThai = '1' AND MaHoaDon = '" + ma_hoa_don+ "'").ToList();
             
             if(mon!= null)
             {
@@ -140,6 +140,9 @@ namespace API_QL_Nha_hang.Controllers
                 ban_hd.GioVao = null;
                 ban_hd.HoaDon = null;
                 context.SaveChanges();
+
+                //cap nhat lai bang DatMon
+                context.Database.ExecuteSqlCommand("DELETE dbo.DatMon WHERE TrangThai = '0' AND MaHoaDon = '" + ma_hoa_don + "'");
 
 
                 return Request.CreateResponse(HttpStatusCode.OK, "Thanh toan thanh cong");

@@ -7,6 +7,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,7 +27,7 @@ namespace Test1
         public thanhtoan_Hd()
         {
             InitializeComponent();
-            loadban();
+            Connect();
         }
 
 
@@ -37,8 +38,28 @@ namespace Test1
             Stream stream = response.GetResponseStream();
             return stream;
         }
+        IPEndPoint IP;
+        Socket client;
+        void Connect()
+        {
+            IP = new IPEndPoint(IPAddress.Parse("192.168.8.101"), 8080);
+            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+
+            try
+            {
+                client.Connect(IP);
+            }
+            catch
+            {
+                MessageBox.Show("Không thể kết nối server!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
 
+            Thread listen = new Thread(loadban);
+            listen.IsBackground = true;
+            listen.Start();
+        }
        
         private async void loadban()
         {
@@ -194,8 +215,13 @@ namespace Test1
 
             loadban();
             listView1.Controls.Clear();
+            listView1.Items.Clear();
+            listView1.Columns.Clear();
 
         }
+
+
+
     }
 }
 
