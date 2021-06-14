@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,6 +28,8 @@ namespace Test1
         public thanhtoan_Hd()
         {
             InitializeComponent();
+            CheckForIllegalCrossThreadCalls = false;
+            Connect();
             loadban();
         }
 
@@ -38,29 +41,7 @@ namespace Test1
             Stream stream = response.GetResponseStream();
             return stream;
         }
-        //IPEndPoint IP;
-        //Socket client;
-        //void Connect()
-        //{
-        //    IP = new IPEndPoint(IPAddress.Parse("192.168.8.101"), 8080);
-        //    client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
-
-        //    try
-        //    {
-        //        client.Connect(IP);
-        //    }
-        //    catch
-        //    {
-        //        MessageBox.Show("Không thể kết nối server!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        return;
-        //    }
-
-
-        //    Thread listen = new Thread(loadban);
-        //    listen.IsBackground = true;
-        //    listen.Start();
-        //}
-       
+        
         private async void loadban()
         {
             panelBan.Controls.Clear();
@@ -213,6 +194,7 @@ namespace Test1
 
             MessageBox.Show("Thanh toán thành công","Thông báo",  MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+
             loadban();
             listView1.Controls.Clear();
             listView1.Items.Clear();
@@ -248,6 +230,121 @@ namespace Test1
                 }
             }
         }
+
+
+
+
+        //Socket
+        /*
+        * cần IP 
+        * cần socket
+        */
+        IPEndPoint IP;
+        Socket client;
+
+        public void Connect()
+        {
+            IP = new IPEndPoint(IPAddress.Parse("192.168.8.100"), 9999);
+            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+
+            try
+            {
+                client.Connect(IP);
+            }
+            catch
+            {
+                MessageBox.Show("Không thể kết nối server!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+
+            Thread listen = new Thread(Receive);
+            listen.IsBackground = true;
+            listen.Start();
+        }
+
+        ///<summary>
+        ///đống kết nối hiện thời
+        ///</summary>
+        ///
+        public void Close()
+        {
+            client.Close();
+        }
+
+
+
+        ///<summary>
+        ///gửi tin
+        ///</summary>
+        ///
+        public void Send()
+        {
+            client.Send(Serialize(ma_ban));
+
+        }
+
+        ///<summary>
+        ///nhận tin
+        /// </summary>
+        /// 
+        public void Receive()
+        {
+            try
+            {
+                while (true)
+                {
+                    byte[] data = new byte[1024 * 5000];
+                    client.Receive(data);
+
+                    string message = (string)Deserialize(data);
+
+                    Button btn = panelBan.Controls[message] as Button;
+                    btn.PerformClick();
+
+
+                }
+
+            }
+            catch
+            {
+                Close();
+            }
+
+
+        }
+
+
+
+        /// <summary>
+        /// phân mảnh
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public byte[] Serialize(object obj)
+        {
+            MemoryStream stream = new MemoryStream();
+            BinaryFormatter formatter = new BinaryFormatter();
+
+            formatter.Serialize(stream, obj);
+
+            return stream.ToArray();
+        }
+
+
+        /// <summary>
+        /// ghép mảnh
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        public object Deserialize(byte[] data)
+        {
+            MemoryStream stream = new MemoryStream(data);
+            BinaryFormatter formatter = new BinaryFormatter();
+
+            return formatter.Deserialize(stream);
+        }
+
     }
 }
 
