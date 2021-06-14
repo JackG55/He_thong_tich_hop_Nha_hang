@@ -16,7 +16,7 @@ namespace Nha_Bep
         public NhaBep()
         {
             _client = new HttpClient();
-            _client.BaseAddress = new Uri("http://192.168.8.101:8080/");
+            _client.BaseAddress = new Uri("http://192.168.8.100:44444/");
             _client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
         public async Task<List<DatMon_HoaDon_MonAn>> GetMonAn(string maban)
@@ -34,6 +34,18 @@ namespace Nha_Bep
             var byteContent = new ByteArrayContent(buffer);
             byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
             _client.PutAsync($"api/HoanThanh/{madatmon}", byteContent);
+        }
+
+        /// <summary>
+        /// lấy ra toàn bộ Bàn
+        /// </summary>
+        /// <returns></returns>
+        public async Task<List<Ban>> Getlist()
+        {
+            _response = await _client.GetAsync($"/api/Ban");
+            var json = await _response.Content.ReadAsStringAsync();
+            var listBan = JsonConvert.DeserializeObject<List<Ban>>(json);
+            return listBan;
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Test1
         public Hoadon()
         {
             _client = new HttpClient();
-            _client.BaseAddress = new Uri("http://192.168.8.101:8080/");
+            _client.BaseAddress = new Uri("http://192.168.8.100:44444/");
             _client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
 

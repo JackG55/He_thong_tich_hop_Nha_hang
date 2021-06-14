@@ -23,11 +23,11 @@ namespace Test1
         string ma_ban = "";
         double tong_tien = 0;
 
-        public string rootFolder = "http://192.168.8.101:8080/Images/";
+        public string rootFolder = "http://192.168.8.100:44444/Images/";
         public thanhtoan_Hd()
         {
             InitializeComponent();
-            Connect();
+            loadban();
         }
 
 
@@ -38,28 +38,28 @@ namespace Test1
             Stream stream = response.GetResponseStream();
             return stream;
         }
-        IPEndPoint IP;
-        Socket client;
-        void Connect()
-        {
-            IP = new IPEndPoint(IPAddress.Parse("192.168.8.101"), 8080);
-            client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
+        //IPEndPoint IP;
+        //Socket client;
+        //void Connect()
+        //{
+        //    IP = new IPEndPoint(IPAddress.Parse("192.168.8.101"), 8080);
+        //    client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.IP);
 
-            try
-            {
-                client.Connect(IP);
-            }
-            catch
-            {
-                MessageBox.Show("Không thể kết nối server!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+        //    try
+        //    {
+        //        client.Connect(IP);
+        //    }
+        //    catch
+        //    {
+        //        MessageBox.Show("Không thể kết nối server!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        return;
+        //    }
 
 
-            Thread listen = new Thread(loadban);
-            listen.IsBackground = true;
-            listen.Start();
-        }
+        //    Thread listen = new Thread(loadban);
+        //    listen.IsBackground = true;
+        //    listen.Start();
+        //}
        
         private async void loadban()
         {
@@ -220,8 +220,34 @@ namespace Test1
 
         }
 
-
-
+        private async void btnExp_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Text Documents|*.txt", ValidateNames = true })
+            {
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    using (TextWriter tw = new StreamWriter(new FileStream(sfd.FileName, FileMode.Create), Encoding.UTF8))
+                    {
+                        tw.WriteLine("\t" + "HÓA ĐƠN THANH TOÁN ");
+                        tw.WriteLine("\t\t" + "Đã Xuất Lúc:" + DateTime.Now);
+                        tw.WriteLine("--------------MTA RESTAURANT--------------");
+                        tw.WriteLine("Địa chỉ: 236 - Hoàng Quốc Việt - Cầu Giấy- Hà Nội ");
+                        tw.WriteLine("TEL: 0363345717");
+                        tw.WriteLine("Thu Ngân: Ngọc Hoa");
+                        tw.WriteLine("-------------------------------------------");
+                        tw.WriteLine("Tên Món Ăn" + " " + "\t\t" + " " + "Giá");
+                        tw.WriteLine("-------------------------------------------");
+                        foreach (ListViewItem item in listView1.Items)
+                        {
+                            await tw.WriteLineAsync(item.SubItems[0].Text + "\n" + "\t" + "(" + item.SubItems[1].Text + ")" + "\t\t " + item.SubItems[2].Text);
+                        }
+                        tw.WriteLine("\t" + "-------------------------------");
+                        tw.WriteLine("\t" + "Rất Vui Được Phục Vụ Quý Khách");
+                        MessageBox.Show("Successfully");
+                    }
+                }
+            }
+        }
     }
 }
 

@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Test1;
-using Test1.Models;
+using Nha_Bep.Models;
 
 namespace Nha_Bep
 {
@@ -19,7 +19,7 @@ namespace Nha_Bep
         banan ban = new banan();
         // Hoadon hd = new Hoadon();
         NhaBep nb = new NhaBep();
-        public static string rootFolder = "http://192.168.8.101:8080/Images/";
+        public static string rootFolder = "http://192.168.8.100:44444/Images/";
         public Form1()
         {
             InitializeComponent();
@@ -38,7 +38,7 @@ namespace Nha_Bep
         private async void loadban()
         {
             panelBan.Controls.Clear();
-            var listq = await ban.Getlist();
+            var listq = await nb.Getlist();
             int X = 0;
             int Y = 0;
 

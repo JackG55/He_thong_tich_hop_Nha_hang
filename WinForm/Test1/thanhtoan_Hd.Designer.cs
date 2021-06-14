@@ -34,6 +34,7 @@
             this.btnthanhtoan = new System.Windows.Forms.Button();
             this.panelBan = new System.Windows.Forms.Panel();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.btnExp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -97,11 +98,23 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
+            // btnExp
+            // 
+            this.btnExp.Location = new System.Drawing.Point(786, 494);
+            this.btnExp.Name = "btnExp";
+            this.btnExp.Size = new System.Drawing.Size(118, 39);
+            this.btnExp.TabIndex = 13;
+            this.btnExp.Text = "Xuất Hoá Đơn";
+            this.btnExp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExp.UseVisualStyleBackColor = true;
+            this.btnExp.Click += new System.EventHandler(this.btnExp_Click);
+            // 
             // thanhtoan_Hd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 545);
+            this.Controls.Add(this.btnExp);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panelBan);
@@ -123,5 +136,6 @@
         private System.Windows.Forms.Button btnthanhtoan;
         private System.Windows.Forms.Panel panelBan;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button btnExp;
     }
 }

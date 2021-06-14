@@ -16,7 +16,7 @@ namespace Nha_Bep
         public MonAnCanLam()
         {
             _client = new HttpClient();
-            _client.BaseAddress = new Uri("http://192.168.8.101:8080/Images/");
+            _client.BaseAddress = new Uri("http://192.168.8.100:44444/");
             _client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
         public async Task<List<DatMon_HoaDon_MonAn>> GetMonAn()
